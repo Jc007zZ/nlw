@@ -1,0 +1,79 @@
+
+
+div#container {
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    display: none;
+    
+}
+
+p#voltar {
+    border: 2px solid #00ff37;
+   display: inline-flex;
+   align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #00ff37;
+    margin-top: 10px;
+    margin-left: 10px;
+   margin-right: 0px;
+    
+}
+
+p#voltar:hover {
+    transform: translate( -2px,  -2px);
+}
+
+div#container div {
+     display: inline-flex;
+     margin: 0px;
+     width: 110px;
+     margin-left:9px;
+     
+     
+}
+
+div#container div:hover {
+    background-color: rgba(0, 0, 0, 0.702);
+    width: 110px;
+    height: 50px;
+    transform: translate( -2px,  -2px);
+}
+
+div#container p#adicionar {
+   
+    margin-right: 290px;
+    margin-left: 6px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+form.data {
+    display: flex;
+   position: absolute;
+    margin-top: 20px;
+   padding-top:10px ;
+   padding-left: 10px;
+    width: 390px;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.581);
+    border-radius: 20px;
+   position: fixed;
+   left: 50%;
+   transform: translate(-50%);
+  flex-wrap: wrap;
+   
+}
+
+input.data {
+    margin: 5px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: white;
+}

@@ -1,0 +1,14 @@
+body {
+    background-image: url(assets/wallpaper.gif);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.logo {
+    width: 30vw;
+    margin-right: 5px;
+}
+
+form.data {
+    bottom: 5px;
+}
