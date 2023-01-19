@@ -2,6 +2,12 @@ body {
     background-image: url(assets/wallpaper.gif);
     background-repeat: no-repeat;
     background-position: top center;
+  
+ }
+
+header {
+    padding-top: 10px;
+    margin-top: 0px;
 }
 
 .logo {
@@ -10,5 +16,15 @@ body {
 }
 
 form.data {
-    bottom: 5px;
+    bottom: 60vw;
+}
+
+
+div.habitos {
+    margin-left: 20px;
+    z-index: 1;
+}
+
+div.dias {
+    margin-left: 10px;
 }

@@ -11,6 +11,7 @@ body {
     background-image: url(assets/wallpaper.gif);
     background-repeat: no-repeat;
     background-position: top center;
+    
 }
 
 header {
@@ -59,30 +60,45 @@ p.data {
     width: 64px;
 }
 
+form.form {
+    display: flex;
+}
+
 div.dia {
     color: white;
     display: inline;
     text-align: center;
-
+  
 }
 
 div.dias {
     display: flex;
-    height: 600px;
+    height: 552px;
     gap: 20px;
-    margin-left: 70px;
+    margin-left: 10px;
+    overflow-x: scroll;
 }
 
 
 div.habitos {
+    display: inline-flex;
     margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+    flex-direction: column;
+    
+    
 }
 
 .habitos img {
-    display: flex;
+    
     margin-bottom: 40px;
     width: 45px;
+    margin-right: 0px;
+    
+   
 }
+
 
 
 
