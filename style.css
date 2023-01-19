@@ -24,6 +24,7 @@ header {
 
 .logo {
     margin-left: 40px;
+    display: none;
 }
 
 .botao {
@@ -50,15 +51,8 @@ header {
     cursor: pointer;
 }
 
-.botao:hover>p.registrar {
-    text-shadow: 2px 3px 5px 1px 1px 10px #00ff37;
-    box-shadow: 1px 1px 10px #00ff37, ;
-}
-
 p.registrar {
     margin-left: 10px;
-
-
 }
 
 p.data {
