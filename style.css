@@ -100,9 +100,6 @@ div.habitos {
    
 }
 
-::-webkit-scrollbar {
-    color: #00ff37;
-}
 
 
 
@@ -141,19 +138,19 @@ input:checked {
 
 }
 
-body::-webkit-scrollbar {
+*::-webkit-scrollbar {
     width: 5px;
     height: 6px;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background:  ;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: ;
+}
+
+*::-webkit-scrollbar-track {
+    background: #00ff3700;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #00ccaa;
     border-radius: 20px;
-  }
+}
 
 @media (min-width: 1920px) {
 
