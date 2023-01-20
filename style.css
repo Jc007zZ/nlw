@@ -71,6 +71,7 @@ div.dia {
     color: white;
     display: inline;
     text-align: center;
+    padding: 0px 10px 0px 10px;
   
 }
 
@@ -125,9 +126,9 @@ input {
 }
 
 input.check:hover {
-    box-shadow: 1px 1px 10px #e5ff00b6, -1px -1px 10px #e5ff00b6;
-    width: 65px;
-    height: 65px;
+    box-shadow: 1px 1px 10px #e5ff00c2, -1px -1px 10px #e5ff00c4;
+    width: 64px;
+    height: 64px;
     cursor: pointer;
 }
 
