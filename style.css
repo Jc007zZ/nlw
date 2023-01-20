@@ -12,6 +12,7 @@ body {
     background-image: url(assets/wallpaper.gif);
     background-repeat: no-repeat;
     background-position: top center;
+   
     
 }
 
@@ -19,8 +20,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 30px;
+    padding-bottom: 40px;
     margin-top: 40px;
 }
 
@@ -63,6 +64,7 @@ p.data {
 
 form.form {
     display: flex;
+    height: 350px;
 }
 
 div.dia {
@@ -101,7 +103,9 @@ div.habitos {
 }
 
 
-
+svg {
+    margin-left: 70px;
+}
 
 
 
