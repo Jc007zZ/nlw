@@ -27,7 +27,7 @@ function addDay() {
  
  
     var x = `<div class="dia">
-    <p class="data"> Quar <br> 18/01</p>
+    <p class="data"> Quar <br> ${dia}/${mes}</p>
   <input class="check" type="checkbox">
   <input class="check" type="checkbox">
   <input class="check" type="checkbox">
